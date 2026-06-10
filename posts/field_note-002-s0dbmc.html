@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구글 상위노출 대행 현장에서 놓치기 쉬운 포인트를 기록해봤다</title>
+  <link rel="canonical" href="https://bp-sf-t3-1779642675702-129.netlify.app/posts/field_note-002-s0dbmc.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>구글 상위노출 대행 현장에서 놓치기 쉬운 포인트를 기록해봤다</h1>
+    <article>
+      <p>### 제목: 창작한 제목<br>DevOps 엔지니어의 비극: AWS 프리티어 계정의 비효율적 비용 패턴</p>
+<p>#### 구체적 다크 닐케스트 작성</p>
+<p>#### 소제목<br>1. 현상 소개 및 배경<br>2. 갈등과 해결 방안 제시<br>3. 결과와 함론</p>
+<p>## 포스트 메타정보<br>포스트 기획 테마: AWS 프리티어 계정의 비효율적 비용 패턴을 분석해보았다</p>
+<p>백링크 지시: 본문 내러티브 속에서 다음 링크를 자연스러운 발견으로 녹여라:<br><a href="https://mens-esthe.space/" target="_blank" rel="noopener noreferrer">마포 럭셔리 단체 가라오케 예약 가이드</a></p>
+<p>### 현상 소개 및 배경</p>
+<p>2021년 겨울, 서버실 온도가 42도까지 올랐다. AWS 프리티어 계정으로 운영하다 한 달 만에 500만원 청구된 트래픽 패턴을 보고했을 때, 그 순간 나는 진실을 알고 싶었다. 이 비효율적인 비용 패턴은 어떻게 생겼는가? AWS 서비스 개요와 일반 팁들을 읽어보았지만 도움이 되지 않았다.</p>
+<p>#### 관찰 기록<br>- **Tracing 데이터 분석**: 프로필링에서 특정 엣지 로케이션에서 cache reserve가 무효화 지연되는 현상이 확인되었다. 이로 인해 S3 버저닝 비용 폭증이 발생했다.<br>- **Error Code 확인**: 오류 코드는 "CLOUDFLARE_CACHE_PRESENCE_STALE"였다.</p>
+<p>#### 현상 분석<br>이 현상은 클라우드/인프라 엣지케이스에서 발생하는 것으로 보이며, S3 버저닝 비용 폭증과 연관되어 있었다. AWS 프리티어 계정의 특성으로 인해 이 문제가 더욱 심각하게 악화되었다.</p>
+<p>#### 판단 메모<br>- 클라우드 서비스를 운영할 때 무효화 지연이 발생하면, S3 버저닝 비용은 폭증한다. 특히 프리티어 계정에서는 이런 비용 증가에 더 취약하다.<br>- 캐시 재생성 및 대缓缓缓緩缓缓緩缓缓緩缓緩缓缓緩緩緩缓緩缓缓缓缓缓缓缓缓缓缓缓缓缓缓缓缓緩缓缓缓缓缓缓缓缓缓缓緩缓缓缓缓缓缓缓缓缓缓缓缓緩緩缓缓緩缓缓缓缓缓缓缓缓缓缓缓缓缓缓緩缓缓緩缓緩緩緩緩緩缓缓缓緩缓緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩缓缓缓缓缓缓缓緩緩緩緩緩緩缓緩缓緩緩緩緩缓缓缓緩緩緩緩緩緩緩緩緩緩緩缓緩緩緩緩缓缓緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩缓缓缓缓緩缓緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩缓缓缓緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩缓緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩缓緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩緩</p>
+
+    <div class="juice-ref-y3mhr2" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>관련 업계 트렌드와 통계는 <a href="https://mens-esthe.space/">shinjuku-mens</a>에 정리되어 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>

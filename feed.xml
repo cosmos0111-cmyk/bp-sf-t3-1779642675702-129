@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[마포 구글 상위노출 대행]]></title>
-  <link>https://sf-t3-1779642675702-129.vercel.app</link>
-  <description><![CDATA[마포 LLM비교 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Wed, 27 May 2026 23:02:31 GMT</pubDate>
-  <lastBuildDate>Wed, 27 May 2026 23:02:31 GMT</lastBuildDate>
-  <atom:link href="https://sf-t3-1779642675702-129.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+  <title><![CDATA[LLM비교]]></title>
+  <link>https://bp-sf-t3-1779642675702-129.netlify.app</link>
+  <description><![CDATA[LLM비교 - 구글 상위노출 대행 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Wed, 10 Jun 2026 16:25:11 GMT</pubDate>
+  <lastBuildDate>Wed, 10 Jun 2026 16:25:11 GMT</lastBuildDate>
+  <atom:link href="https://bp-sf-t3-1779642675702-129.netlify.app/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[마포 구글 상위노출 대행 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://sf-t3-1779642675702-129.vercel.app/</link>
-      <guid isPermaLink="true">https://sf-t3-1779642675702-129.vercel.app/</guid>
-      <description><![CDATA[마포 LLM비교 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Wed, 27 May 2026 23:02:31 GMT</pubDate>
+      <title><![CDATA[구글 상위노출 대행 현장에서 놓치기 쉬운 포인트를 기록해봤다]]></title>
+      <link>https://bp-sf-t3-1779642675702-129.netlify.app/posts/field_note-002-s0dbmc.html</link>
+      <guid isPermaLink="true">https://bp-sf-t3-1779642675702-129.netlify.app/posts/field_note-002-s0dbmc.html</guid>
+      <description><![CDATA[### 제목: 창작한 제목DevOps 엔지니어의 비극: AWS 프리티어 계정의 비효율적 비용 패턴 #### 구체적 다크 닐케스트 작성 #### 소제목1. 현상 소개 및 배경2. 갈등과 해결 방안 제시3. 결과와 함론 ## 포스트 메타정보포스트 기획 테마: AWS 프리티]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[구글 상위노출 대행 솔직 후기 — 3개월 써본 사람의 리얼 리뷰]]></title>
+      <link>https://bp-sf-t3-1779642675702-129.netlify.app/posts/review-001-s0dbmc.html</link>
+      <guid isPermaLink="true">https://bp-sf-t3-1779642675702-129.netlify.app/posts/review-001-s0dbmc.html</guid>
+      <description><![CDATA[### 제목: 창작한 제목"CVSS 9.8 Silent Patch: Apache Superset RC3 Removal & Redis OOM Vulnerability Unveiled" #### 구체적 니치 콘텐츠 작성 주어진 주제를 일반론으로 요약하지 말고, 독자가 실제]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>

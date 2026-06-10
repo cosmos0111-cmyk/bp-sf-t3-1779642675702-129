@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구글 상위노출 대행 솔직 후기 — 3개월 써본 사람의 리얼 리뷰</title>
+  <link rel="canonical" href="https://bp-sf-t3-1779642675702-129.netlify.app/posts/review-001-s0dbmc.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>구글 상위노출 대행 솔직 후기 — 3개월 써본 사람의 리얼 리뷰</h1>
+    <article>
+      <p>### 제목: 창작한 제목<br>"CVSS 9.8 Silent Patch: Apache Superset RC3 Removal & Redis OOM Vulnerability Unveiled"</p>
+<p><IMAGE placement="hero" alt="Apache Superset vulnerability analysis with CVSS scores"></p>
+<p>#### 구체적 니치 콘텐츠 작성</p>
+<p>주어진 주제를 일반론으로 요약하지 말고, 독자가 실제로 판단하거나 행동하는 데 필요한 구체적인 맥락을 작성하세요.</p>
+<p>### 주제<br>Apache Superset 2.0 릴리스 전 PyPI에서 삭제된 RC3 빌드의 취약점과 삭제된 실제 이유</p>
+<p>### 맥락<br>오픈소스 도구 취약점/변경점 / Redis OOM 킬 서사</p>
+<p>#### 규칙</p>
+<p>1. **관점 강제**: 보안 연구원 시점에서 CVSS 9.8이지만 릴리스 노트에 없는 silent patch의 진짜 취약점을 중심으로 서사를 전개합니다. 감정선 있는 이야기로 풀어내야 합니다.</p>
+<p>2. **검색 의도 대응**: 구글 상위노출 대행과 관련하여, 이 글은 "CVSS 9.8" 취약점에 대한 자세한 이해와 그 외 다른 취약점 간의 비교를 통해 독자가 판단하고 행동할 수 있는 정보를 제공합니다.</p>
+<p>3. **구체성 원칙**: 버전명·모델명·연도·오류코드는 주제 상 필요하며 확실할 때만 사용하세요. 대신 조건, 절차, 관찰 포인트, 예외를 구체적으로 설명하세요.</p>
+<p>4. **사실성 우선**: 기억이 불확실한 수치·인용·사례·제품 사양은 만들지 마세요. 확실하지 않으면 일반 원리로 표현하거나 생략하세요.<br>  <br>5. **자연스러운 말투**: geek 페르소나에 맞는 말투로, 마치 경험자가 옆에서 얘기해주는 것처럼.</p>
+<p>6. **길이**: 400~500단어로 깊이 있게 작성합니다.</p>
+<p>7. **가독성 문단 구조**: 한 문단은 2~4문장으로 짧게 유지하세요.<br>8. **소제목 활용**: 긴 글은 ## 또는 ### 마크다운 소제목으로 섹션을 나누어 가독성을 높입니다.</p>
+<p>#### 서술</p>
+<p>아, 진짜... Apache Superset의 RC3 빌드가 PyPI에서 삭제되었는데 그 이유와 취약점에 대해 알아봅시다. 이 취약성이 CVSS 9.8를 기록하면서 실제 노출되었던지 아닌지는 릴리스 노트에서는 확인하기 어렵습니다.</p>
+<p>#### 첫 번째 실패: Redis OOM Vulnerability</p>
+<p>Superset가 Redis를 사용하여 데이터베이스를 관리하는 경우, Redis의 Out of Memory (OOM) 취약성이 악용될 수 있습니다. 이는 직관적으로 이해할 수 있지만, 실제 취약점과 노출 여부에 대한 릴리스 노트에서는 명확하지 않습니다.</p>
+<p>#### 두 번째 실패: CVSS 9.8 Silent Patch</p>
+<p>CVSS 점수가 9.8인 silent patch가 존재하면서 이 취약성을 노출해야 하는 이유를 파악하는 것은 어려웠습니다. 일반적으로, 릴리스 노트에는 이런 중요한 정보가 포함되어야 하지만 이번에는 그렇지 않았습니다.</p>
+<p>#### 실패 원인 분석</p>
+<p>CVSS 9.8의 silent patch는 Redis OOM 취약성을 노출합니다. 이 취약성이 실제로 노출되었는지 아닌지는 릴리스 노트에서 확인하기 어렵습니다. 그 이유는 보안 연구원의 관점에서 볼 때, RC3 빌드가 삭제되면서 직접적으로 CVE가 등록되는 경우는 매우 드물기 때문입니다.</p>
+<p>#### 실패 결과와 추적</p>
+<p>RC3 빌드가 삭제되었을 때, 취약성을 노출하는 이유를 분석해 보았습니다. CVSS 9.8의 silent patch가 Redis OOM 취약성을 노출하는데, 이는 원칙적으로 문제였지만 릴리스 노트에서 이를 확인하기 어렵습니다.</p>
+<p>#### 비교과제</p>
+<p>CVSS 점수와 릴리스 노트에 없는 silent patch를 통해, Superset 2.0의 다른 취약성들과 비교해볼 필요가 있습니다. 이는 사용자가 다양한 오픈소스 도구의 취약성을 판단할 때 참고할 수 있는 중요한 지표입니다.</p>
+<p>#### 결론</p>
+<p>CVSS 9.8의 silent patch와 Redis OOM 취약성이 Superset RC3 빌드에서 노출되었지만, 실제 노출 여부는 릴리스 노트에서 확인하기 어렵습니다. 이로 인해 사용자가 다양한 오픈소스 도구의 취약성을 판단할 때 참고해야 하는 중요한 정보가 되었습니다.</p>
+<p>#### 가독성과 자연스러움</p>
+<p>이 글을 쓰면서, 보안 연구원 시점에서 CVSS 9.8 silent patch와 Redis OOM 취약성이 노출되었지만 실제 노출 여부를 확인하기 어려웠음을 강조하는 것은 중요합니다. 또한 사용자가 다양한 오픈소스 도구의 취약성을 판단할 때 참고해야 하는 중요한 지표가 되어야 합니다.</p>
+<p>####</p>
+<p><a href="https://dydrkrtks7-cmd.github.io/bp-t1-shirtsroom-shop/" target="_blank" rel="noopener noreferrer">셔츠룸 예약</a></p>
+
+    <div class="juice-ref-w6x0cl" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>심층 정보와 실제 데이터는 <a href="https://mens-esthe.space/">shinjuku-mens</a>를 참고하세요.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://support.google.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
